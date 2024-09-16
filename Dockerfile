@@ -8,11 +8,11 @@ MAINTAINER Denchouka
 WORKDIR /app
 
 # 将项目的jar文件复制到容器中
-COPY target/hello-world-1.1.0.jar /app/hello-world-1.1.0.jar.jar
+COPY target/hello-world-1.0.0.jar /app/hello-world-1.0.0.jar
 
 # 暴露应用程序使用的端口
 EXPOSE 8889
 
 # 运行应用程序
-ENTRYPOINT ["java", "-jar", "/app/hello-world-1.1.0.jar.jar"]
+ENTRYPOINT ["java", "-jar", "/app/hello-world-1.0.0.jar"]
 

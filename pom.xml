@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>tch.cool</groupId>
     <artifactId>hello-world</artifactId>
-    <version>1.1.0</version>
+    <version>1.0.0</version>
     <name>hello-world</name>
     <description>hello-world</description>
     <properties>
@@ -55,7 +55,6 @@
                 <version>${spring-boot.version}</version>
                 <configuration>
                     <mainClass>tch.cool.HelloWorldApplication</mainClass>
-                    <skip>true</skip>
                 </configuration>
                 <executions>
                     <execution>
