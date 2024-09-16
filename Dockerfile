@@ -1,6 +1,6 @@
 
 # 使用官方的Java运行时环境作为基础镜像
-FROM openjdk:8-jdk-alpine
+FROM public.ecr.aws/amazoncorretto/amazoncorretto:8u412
 
 MAINTAINER Denchouka
 
